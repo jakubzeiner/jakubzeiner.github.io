@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+
+
+  <title>Zeiner BS celodenní projekt</title>
+</head>
+
+
+<body>
+
+  <!-- -------------------home--------------------- -->
+  <div id="domu">
+    <div id="header" class="container text-center text-secondary mt-6">
+      <div id="welcoming" class="container mt-6 p-5">
+        <h2 class="display-4">Vítejte</h2>
+        <h1 class="display-4">HOTEL Huerto del Cura</h1>
+      </div>
+      <div class="container">
+        <form>
+          <h4 class="text-center text-secondary">Rezervovat nyní</h4>
+          <div class="row">
+            <div class="col-12 col-md-6 text-secondary">
+              <label for="firstname">Jméno</label>
+              <input type="text" class="form-control" placeholder="Jan" id="firstname">
+            </div>
+            <div class="col-12 col-md-6 text-secondary">
+              <label for="lastname">Příjmení</label>
+              <input type="text" class="form-control" placeholder="Novák" id="lastname">
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class=" col col-lg-6 form-group text-secondary">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control " id="Email" aria-describedby="emailHelp"
+                placeholder="host@domena.cz">
+            </div>
+            <div class=" col col-lg-6 form-group text-secondary">
+              <label for="telephone">Tel.</label>
+              <input type="tel" class="form-control " id="telephone" aria-describedby="telephone" placeholder="Tel.">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-6 col-md-4 text-secondary">
+              <label for="guestsNum">Počet hostů</label>
+              <input type="text" class="form-control" id="guestsNum" name="guestsNum">
+            </div>
+            <div class="form-group col-6 col-md-4 text-secondary ">
+              <label for="numRooms">Počet pokojů</label>
+              <input type="text" class="form-control" id="numRooms">
+            </div>
+            <div class="form-group col-12 col-md-4 text-secondary">
+              <label for="inputState">Druh pokoje</label>
+              <select id="inputState" class="form-control">
+                <option selected="">Jednolůžkový</option>
+                <option>Dvoulůžkový</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 form-group text-secondary">
+              <label for="exampleInputPassword1">Datum příjezdu</label>
+              <input type="date" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="col-6 form-group text-secondary">
+              <label for="exampleInputPassword1">Datum odjezdu</label>
+              <input type="date" class="form-control" id="exampleInputPassword1">
+            </div>
+          </div>
+          <div class="text-center p-3">
+            <button type="submit" class="btn btn-primary">Rezervovat</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Virtuální prohlídka
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary" href="#">Huerto del Cura</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav md-2">
+          <a class="nav-link text-primary" aria-current="page" href="#">Domů</a>
+          <a class="nav-link text-primary" href="#history">Historie</a>
+          <a class="nav-link text-primary" href="#priceList">Ceník</a>
+          <a class="nav-link text-primary" href="#galerie">Galerie</a>
+          <a class="nav-link text-primary" href="#contacts">Kontakty</a>
+          <a class="nav-link text-primary" href="animace.html">Ikona</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <!-- History -->
+
+  <main>
+    <div class="wrapper">
+      <section id="history">
+        <div class="container text-center">
+          <h3 class="headings py-5">Historie</h3>
+          <div class="row justify-content-center">
+            <div id="firstpar" class="col-12 col-md-4 p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis libero illo perferendis id, ducimus sint
+              corporis soluta neque porro autem repellat sed consectetur modi sit perspiciatis esse. Harum, doloremque
+              voluptatum?
+            </div>
+
+            <div id="secondpar" class="col-12 col-md-4 p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam animi modi, maxime nesciunt, sint
+              molestias numquam libero officiis illo praesentium perspiciatis vero consequuntur minima itaque et eum
+              soluta mollitia repellat ratione doloribus error voluptates sequi. Ea sed exercitationem maxime tempore
+              necessitatibus numquam facere labore perferendis officia esse, laboriosam velit?
+            </div>
+            <div class="col-4 d-none d-sm-block">
+              <img src="img/pool.jpg" class="img-fluid pool mb-5 pt-3" alt="bazen">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Cards -->
+      <section id="priceList" class="py-4">
+        <div class="container text-center">
+          <h3 class="headings py-5">Ceník</h3>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card my-2">
+                <img src="img/room.jpg" class="card-img-top" alt="room1">
+                <div class="card-body">
+                  <h5 class="card-title">Basic</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ut nisi? Reiciendis
+                    fugiat dicta hic?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1000 CZK jednolůžko/noc</li>
+                  <li class="list-group-item">1700 CZK dvoulůžko/noc</li>
+                </ul>
+                <div class="card-body">
+                  <a class="btn btn-outline-dark" data-bs-toggle="tooltip" data-placement="bottom"
+                    title="Podívej se">Select</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card my-2">
+                <img src="img/room.jpg" class="card-img-top" alt="room1">
+                <div class="card-body">
+                  <h5 class="card-title">Standard</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ut nisi? Reiciendis
+                    fugiat dicta hic?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1300 CZK jednolůžko/noc</li>
+                  <li class="list-group-item">2000 CZK dvoulůžko/noc</li>
+                </ul>
+                <div class="card-body">
+                  <a class="btn btn-outline-dark" data-bs-toggle="tooltip" data-placement="bottom"
+                    title="Podívej se!">Select</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card my-2">
+                <img src="img/room.jpg" class="card-img-top" alt="room1">
+                <div class="card-body">
+                  <h5 class="card-title">Standard Plus</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ut nisi? Reiciendis
+                    fugiat dicta hic?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1800 CZK jednolůžko/noc</li>
+                  <li class="list-group-item">2500 CZK dvoulůžko/noc</li>
+                </ul>
+                <div class="card-body">
+                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Naše nabídka"
+                    data-bs-content="Zažijte skvělý zážitek v jednom z našich nejlepších apartmá">Klikni sem</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card my-2">
+                <img src="img/room.jpg" class="card-img-top" alt="room1">
+                <div class="card-body">
+                  <h5 class="card-title">Exclusive</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, ut nisi? Reiciendis
+                    fugiat dicta hic?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2700 CZK jednolůžko/noc</li>
+                  <li class="list-group-item"> 3500 CZK dvoulůžko/noc</li>
+                </ul>
+                <div class="card-body">
+                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Naše nabídka"
+                    data-bs-content="Zažijte skvělý zážitek v jednom z našich nejlepších apartmá">Klikni sem</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- Carousel  -->
+      <section id="galerie">
+        <div class="container mt-auto">
+          <h3 class="text-center headings py-5">Galerie</h3>
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hotel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/hotel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/hotel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <!-- Coctacts -->
+      <section id="contacts">
+        <div class="container text-light">
+          <h3 class="text-center headings py-5">Kontakty</h3>
+          <div class="row">
+            <div class="col-12 col-md-4 py-4 ">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6782.303543613374!2d-0.6917231299627485!3d38.26385312267487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b68dd6541693%3A0x724642547ebab766!2sHuerto%20del%20Cura!5e0!3m2!1scs!2scz!4v1654080629753!5m2!1scs!2scz"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-around align-items-center">
+              <a href="#" class="bi bi-facebook h2"></a>
+              <a href="#" class="bi bi-twitter h2"></a>
+              <a href="#" class="bi bi-instagram h2"></a>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+
+              <p>
+                <i class="bi bi-envelope-open"></i>&nbsp;info@huertodelcura.com
+              </p>
+              <p>
+                <i class="bi bi-telephone"></i></i>&nbsp;+34 123 456 789
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+  </main>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Virtuální prohlídka</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <iframe class="mod" height="300px" src="https://www.youtube.com/embed/wsq-r8lMMsk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script> var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })</script>
+  <script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })</script>
+
+</body>
+
+</html>
