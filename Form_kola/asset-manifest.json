@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Form_kola/static/css/main.d3fb5d65.css",
+    "main.js": "/Form_kola/static/js/main.8d73bfdc.js",
+    "index.html": "/Form_kola/index.html",
+    "main.d3fb5d65.css.map": "/Form_kola/static/css/main.d3fb5d65.css.map",
+    "main.8d73bfdc.js.map": "/Form_kola/static/js/main.8d73bfdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3fb5d65.css",
+    "static/js/main.8d73bfdc.js"
+  ]
+}
